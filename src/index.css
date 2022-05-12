@@ -1,0 +1,134 @@
+.wrapper{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.navbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+/* 
+.navbox .leftside {
+  width: 80px;
+  height: 80px;
+} */
+
+.navbox .leftside img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbox .rightside {
+  font-size: 12px;
+  font-weight: 600;
+  /* position: relative; */
+}
+.navbox .rightside span {
+  margin-right: 10px;
+}
+
+.navbox .rightside span .navlink {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+}
+/* .products-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.products-container .products-card{
+  width: 300px;
+  height: auto;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 5px 5px 4px #e4e4e4;
+  position: relative;
+}
+.products-container .products-card .products-img{
+  width: 100%;
+  height: 200px;
+}
+.products-container .products-card .products-img img{
+  width: 100%;
+  height: 100%;
+}
+.products-container .products-card .product-name{
+  display:block;
+  width: 100%;
+  color: #18b969;
+  margin-top:5px;
+}
+.products-container .products-card .product-price{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.products-container .products-card .addcart-btn{
+  background-color: #377d1b;
+  color:#fff;
+  border:hidden;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 14px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+outline: none;
+} */
+.error-msg{
+  color: red;
+  font-size: 20px
+}
+.success-msg{
+  color: green;
+  font-size: 20px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 302px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  height: 320px;
+  width: 350px;
+  margin-left: 10px;
+}
+.card1 {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 302px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  height: 420px;
+  width: 350px;
+  margin-left: 10px;
+}
+.card-title{
+  color:rgb(71, 33, 237);
+  
+}
+.cart-text{
+  color:rgb(71, 33, 237);
+}
+/* .product-text .quantity-box{
+border: 2px solid black;
+} */
